@@ -1,0 +1,4 @@
+/home/tssh/Desktop/code/MyTest/zmq&protobuf/build/CMakeFiles/server.dir
+/home/tssh/Desktop/code/MyTest/zmq&protobuf/build/CMakeFiles/client.dir
+/home/tssh/Desktop/code/MyTest/zmq&protobuf/build/CMakeFiles/edit_cache.dir
+/home/tssh/Desktop/code/MyTest/zmq&protobuf/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,12 @@
+//proto文件编译
+protoc stu.proto --cpp_out=./
+
+//gcc编译
+g++ server.cpp stu.pb.cc -o server -lzmq -lprotobuf -pthread
+g++ client.cpp stu.pb.cc -o client -lzmq -lprotobuf -pthread
+
+
+//cmake编译 先进行CMakeLists.txt文件编写
+cd build
+cmake ..
+make

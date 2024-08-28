@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/server.dir/server.cpp.o CMakeFiles/server.dir/stu.pb.cc.o -o ../bin/server  -lzmq -lprotobuf -lpthread 

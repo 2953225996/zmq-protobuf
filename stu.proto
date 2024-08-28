@@ -1,0 +1,22 @@
+syntax = "proto3";
+package proto;
+
+message stu{
+    uint64 id = 1;
+
+    string name = 2;
+
+    enum sex{
+        male=0;
+        female=1;
+    }
+    sex gender=3;
+
+    message subject{
+        string name=1;
+        uint64 score=2;
+    }
+    repeated subject subjects=4;
+
+    map<string,string> teacher=5;
+}
